@@ -117,7 +117,7 @@ void SimpSATSolver::initialize( )
 #ifdef PRODUCE_PROOF
 	if ( config.sat_preprocess_booleans != 0 )
 	{
-		periplo_warning( "disabling SATElite preprocessing for proof logging" );
+		//periplo_warning( "disabling SATElite preprocessing for proof logging" );
 		use_simplification = false;
 		config.sat_preprocess_booleans = 0;
 	}
